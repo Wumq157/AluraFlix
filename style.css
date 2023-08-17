@@ -6,3 +6,35 @@ body {
 header {
     padding: 2.5%;
 }
+
+.container_principal {
+background-color: antiquewhite;
+}
+
+.container_caixa {
+background-color: aqua;
+}
+
+.container_video {
+background-color: aquamarine;
+}
+
+.container_secundario {
+background-color: azure;
+}
+
+.container_descricao {
+background-color: bisque;
+}
+
+.titulo_decricao {
+background-color: black;
+}
+
+.texto_descricao {
+background-color: blue;
+}
+
+footer {
+    background-color: yellow;
+}
