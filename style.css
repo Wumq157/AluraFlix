@@ -1,5 +1,11 @@
+:root {
+    --back: rgb(64, 64, 64);
+    --degrade: linear-gradient(215deg, rgba(64,64,64,1) , rgba(13,13,97,1) 49%, rgb(14, 74, 158) 100%);
+
+  }
+
 body {
-    background-color: rgb(51, 51, 51);
+    background: var(--degrade);
     color: rgb(200, 222, 255);
 }
 
