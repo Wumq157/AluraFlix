@@ -1,7 +1,9 @@
 :root {
-    --back: rgb(64, 64, 64);
+    --back: rgb(0, 0, 0);
     --degrade: linear-gradient(215deg, rgba(64,64,64,1) , rgba(13,13,97,1) 49%, rgb(14, 74, 158) 100%);
-
+    --cinza-escuro:rgb(53, 53, 53);
+    --cinza:rgb(117, 117, 117);
+    --cinza-claro:rgb(172, 172, 172);
   }
 
 body {
@@ -10,31 +12,13 @@ body {
 }
 
 header {
+    width: 100%;
+    height: 10%;
     padding: 2.5%;
 }
 
-.container_principal {
-background-color: antiquewhite;
-}
-
-.container_caixa {
-background-color: aqua;
-}
-
-.container_video {
-background-color: aquamarine;
-}
-
-.container_secundario {
-background-color: azure;
-}
-
-.container_descricao {
-background-color: bisque;
-}
-
-.titulo_decricao {
-background-color: black;
+section {
+    background-color: var(--cinza);
 }
 
 .texto_descricao {
@@ -42,5 +26,7 @@ background-color: blue;
 }
 
 footer {
+    width: 100%;
+    height: 10%;
     background-color: yellow;
 }
