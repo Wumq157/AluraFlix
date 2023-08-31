@@ -34,12 +34,34 @@ footer {
     background-color: var(--cinza-escuro);
 }
 
-.dispositivos {
-    display: inline-flex;
-    justify-items: center;
+.container_video ul {
+    display: flex;
+    list-style: none;
 }
 
-.dispositivos img {
-    width: 30%;
-    height: auto;
+.container_video li {
+    text-align: center;
+}
+
+.container_video iframe {
+    max-width: 110%;
+    max-height: auto;
+}
+
+.dispositivos__lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dispositivos__lista li {
+    text-align: center;
+}
+
+.dispositivos__lista img {
+    max-width: 70%;
+}
+
+.dispositivos__lista h3 {
+    margin-top: auto;
 }
