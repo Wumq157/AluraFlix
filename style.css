@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    width: 100vh;
+    width: 95%;
     height: 10vh;
     padding: 2.5%;
     background-color: var(--cinza-escuro);
@@ -28,7 +28,7 @@ section {
 }
 
 footer {
-    width: 100vh;
+    width: 95%;
     height: 10vh;
     padding: 2.5%;
     background-color: var(--cinza-escuro);
