@@ -24,10 +24,19 @@ section {
     background-color: var(--cinza);
     padding: 2.5%;
     margin: 3%;
+    font-size: 1.3em;
 }
 
 footer {
     width: 95%;
     padding: 2.5%;
     background-color: var(--cinza-escuro);
+}
+.dispositvos {
+    display: inline-flex;
+    justify-items: center;
+}
+.dispositvos img{
+    width: 30%;
+    height: auto;
 }
