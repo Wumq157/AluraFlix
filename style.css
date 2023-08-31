@@ -1,14 +1,15 @@
 :root {
     --back: rgb(0, 0, 0);
-    --degrade: linear-gradient(215deg, rgba(64,64,64,1) , rgba(13,13,97,1) 49%, rgb(14, 74, 158) 100%);
-    --cinza-escuro:rgb(53, 53, 53);
-    --cinza:rgb(117, 117, 117);
-    --cinza-claro:rgb(172, 172, 172);
-  }
+    --degrade: linear-gradient(215deg, rgba(64, 64, 64, 1), rgba(13, 13, 97, 1) 49%, rgb(14, 74, 158) 100%);
+    --cinza-escuro: rgb(53, 53, 53);
+    --cinza: rgb(117, 117, 117);
+    --cinza-claro: rgb(172, 172, 172);
+}
 
 body {
     background: var(--degrade);
-
+    font-weight: 400;
+    font-size: 16px;
     color: rgb(255, 255, 255);
 }
 
@@ -32,11 +33,13 @@ footer {
     padding: 2.5%;
     background-color: var(--cinza-escuro);
 }
-.dispositvos {
+
+.dispositivos {
     display: inline-flex;
     justify-items: center;
 }
-.dispositvos img{
+
+.dispositivos img {
     width: 30%;
     height: auto;
 }
